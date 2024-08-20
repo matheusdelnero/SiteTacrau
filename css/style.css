@@ -1784,3 +1784,96 @@ textarea {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.bodi{
+
+  
+  font-family: "Satisfy", cursive;
+    color: #5f0157;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container2 {
+  max-width: 600px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #83308d;
+}
+
+.timeline {
+  border-left: 4px solid #83308d;
+  padding-left: 30px;
+  position: relative;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.module:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: -22px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  width: 20px;
+  background-color: #83308d;
+  z-index: 1;
+}
+
+.module::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 4px solid #83308d;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.icon {
+  font-size: 2.5em;
+  font-family: "Satisfy", cursive;
+  margin-right: 20px;
+  color: #5f0157;
+}
+
+.text h2 {
+  margin: 0;
+  font-family: "Satisfy", cursive;
+  font-size: 1.8em;
+  color: #83308d;
+}
+
+.text p, .text ul {
+  margin: 5px 0;
+  font-size: 1.2em;
+  font-family: "Satisfy", cursive;
+  color: #5f0157;
+}
+
+.text ul {
+  padding-left: 20px;
+}
+
+.text ul li {
+  list-style-type: disc;
+}

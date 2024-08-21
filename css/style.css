@@ -1860,14 +1860,14 @@ h1 {
   margin: 0;
   font-family: "Satisfy", cursive;
   font-size: 1.8em;
-  color: #83308d;
+  color: white;
 }
 
 .text p, .text ul {
   margin: 5px 0;
   font-size: 1.2em;
   font-family: "Satisfy", cursive;
-  color: #5f0157;
+  color: white;
 }
 
 .text ul {
